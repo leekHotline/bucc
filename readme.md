@@ -1,9 +1,9 @@
-# How to better use claude code? (中文)[readme-zh.md]
-prompt should cleaer , detailed
-throught the lession not only should we learn,but also work
+# How to better use claude code?  ([中文版本](readme-zh.md))
+prompt should clear , detailed
+through the lession not only should we learn,but also work
 
 ## explain
-if the current context is over,plz turn off and start anthoer new context
+if the current context is over,plz turn off and start another new context
 MCP server - add as needed ,do not overdo it
 CLAUDE.md - keep it clean , only put the necessary information, you can also put your rules of project in there
 
@@ -21,7 +21,7 @@ if not in the root of project ,you can put .claude in the ~/.claude ,that has  g
 ## commands
 type less words to do more job
 /review   --   "check out the commit quality of code,and gave feedback,if has bug then fix it" 
-onle one command to replace template of prompt
+only one command to replace template of prompt
 .claude/commands/command_name.md
 
 ## mcp server
@@ -34,7 +34,7 @@ claude mcp add github -e GITHUB_PERSONAL_ACCESS_TOKEN=token -- npx -y @modelcont
 ```
 
 ## skills
-nature language to execute standard operation process
+natural language to execute standard operation process
 
 
 

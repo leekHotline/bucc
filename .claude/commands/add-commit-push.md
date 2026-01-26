@@ -1,7 +1,13 @@
-根据暂存区的改动，执行以下操作：
-1. git add .
-2. git commit -m "类型: 简短描述"  
-   类型根据改动选：feat/fix/chore/docs/refactor
-3. git push origin main
+---
+allowed-tools: bash, git
+---
 
-先用git diff --cached看改动内容，再决定commit信息
+一键提交并推送到 dev 分支：
+
+1. `git add .`
+2. `git diff --cached` 查看暂存区改动
+3. 根据改动生成 commit 信息，类型：feat/fix/chore/docs/refactor
+4. `git commit -m "类型: 简短描述"`
+5. `git push origin dev`
+
+自动执行，无需确认。

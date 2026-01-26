@@ -1,4 +1,4 @@
-# 如何更好使用 Claude Code (英文)[readme.md]
+# 如何更好使用 Claude Code ([English Version](readme.md))
 ![alt text](image.png)
 ## CLAUDE.md
 **放什么：** 项目说明书，给Claude看的
