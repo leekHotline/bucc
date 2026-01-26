@@ -4,7 +4,17 @@
       "Bash(git add:*)",
       "Bash(git commit:*)",
       "Bash(git push:*)",
-      "Bash(gh pr create:*)"
+      "Bash(gh pr create:*)",
+      "Bash(gh pr merge 1 --auto --squash)",
+      "Bash(gh pr merge 2 --auto --squash)",
+      "Bash(gh pr merge 2 --squash)",
+      "Bash(gh pr checkout 2)",
+      "Bash(git fetch origin main)",
+      "Bash(git merge origin/main)"
     ]
-  }
+  },
+  "enableAllProjectMcpServers": true,
+  "enabledMcpjsonServers": [
+    "github"
+  ]
 }

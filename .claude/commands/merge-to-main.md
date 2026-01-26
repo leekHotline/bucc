@@ -4,10 +4,9 @@ allowed-tools: bash, mcp__github
 
 创建 PR 并合并到 main：
 
-1. 获取当前分支名 如dev
+1. `git branch --show-current` 获取当前分支
 2. `git diff main...HEAD` 分析改动
-3. 创建 PR（使用 gh 或 MCP）
-4. 自动合并 PR
-5. 删除远程分支（可选）
+3. `gh pr create --base main --fill` 创建 PR
+4. `gh pr merge --auto --squash` 自动合并
 
-自动执行，无需确认。
+使用 gh CLI，无需 MCP。
