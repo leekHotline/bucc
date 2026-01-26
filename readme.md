@@ -1,7 +1,7 @@
 # How to better use claude code?  ([中文版本](readme-zh.md))
 prompt should clear , detailed
 through the lession not only should we learn,but also work
-
+the auth of cc action will be stored in settings.local.json
 ## explain
 if the current context is over,plz turn off and start another new context
 MCP server - add as needed ,do not overdo it
