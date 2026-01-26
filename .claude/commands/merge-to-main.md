@@ -1,5 +1,5 @@
 ---
-allowed-tools: bash
+allowed-tools: bash, mcp__github
 ---
 
 创建 PR 并合并到 main：
